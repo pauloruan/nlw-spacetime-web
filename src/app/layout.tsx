@@ -1,7 +1,7 @@
 import { Bai_Jamjuree as BaiJamjuree, Roboto_Flex as Roboto } from "next/font/google"
 import "./globals.css"
 
-const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto", preload: true })
+const roboto = Roboto({ subsets: ["latin"], variable: "--font-roboto" })
 const baiJamjuree = BaiJamjuree({
   subsets: ["latin"],
   weight: ["400", "700"],
